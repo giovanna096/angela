@@ -1,15 +1,14 @@
-## Wikipedia's Account Creation Tool interface
-[//]: # (TODO: Update badges with upstream url when merged)
-[![Build Status](https://travis-ci.org/enwikipedia-acc/waca.svg?branch=master)](https://travis-ci.org/enwikipedia-acc/waca)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/enwikipedia-acc/waca/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/enwikipedia-acc/waca/?branch=master)
-[![codecov.io](https://codecov.io/github/enwikipedia-acc/waca/coverage.svg?branch=master)](https://codecov.io/github/enwikipedia-acc/waca?branch=master)
+Example PHP project
+===================
 
-This is enwiki's ACC tool.
+The purpose of this repository is to show how to use Travis CI to do
+continuous integration with a PHP project.
 
-### Usage
+Here is a sample status icon showing the state of the master branch.
 
-See [WP:ACC/G](http://enwp.org/WP:ACC/G)
+[![Build Status](https://travis-ci.org/travis-ci-examples/php.svg?branch=master)](https://travis-ci.org/travis-ci-examples/php)
 
-### Installation
+In order to run this project just fork it on github.com and then [enable](http://about.travis-ci.org/docs/user/getting-started/)
+your fork on your [travis-ci profile](http://travis-ci.org/profile). Every push will then trigger a new build on Travis CI.
 
-See INSTALLING
+(Don't forget to update the badge url in the README to point to your own travis project.)
